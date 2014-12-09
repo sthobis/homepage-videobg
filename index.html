@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/default.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="navbar_container">
+		<ul id="navbar">
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Services</a>
+			</li>
+			<li>
+				<a href="#">Portfolio</a>
+			</li>
+			<li>
+				<a href="#">Career</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
+	<div id="hamburger">
+		<a id="nav-toggle" href="#"><span></span></a>
+	</div>
+	<div id="content">
+		<div id="main">
+			<h1>Need For Sleep</h1>
+			<h2>24hours Coding Soldiers</h2>
+			<a href="#">Join Us</a>
+		</div>
+	</div>
+	<div id="video_container">
+		<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
+		<source src="http://s1.webmshare.com/V6VgK.webm" type="video/webm"> 
+		Video not supported </video>
+		<div id="video_pattern">
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/core.js"></script>
+	<script>
+		document.querySelector( "#nav-toggle" )
+	  	.addEventListener( "click", function() {
+	    	this.classList.toggle( "active" );
+	    	navbar_toggle();
+	  	});
+  	</script>
+</body>
+</html>
